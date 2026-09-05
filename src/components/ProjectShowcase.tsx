@@ -56,7 +56,7 @@ export const ProjectShowcase: React.FC = () => {
                 <span>Source Code</span>
               </a>
               <a
-                href="http://localhost:3000"
+                href={typeof window !== 'undefined' ? `${window.location.protocol}//${window.location.hostname}:3000` : 'http://vancek.duckdns.org:3000'}
                 target="_blank"
                 rel="noreferrer"
                 className="px-4 py-2 rounded-xl bg-primary-600 hover:bg-primary-500 text-xs font-semibold text-white shadow-md shadow-primary-600/30 flex items-center gap-2 transition-colors"
@@ -254,11 +254,22 @@ export const ProjectShowcase: React.FC = () => {
 
             <div className="flex items-center gap-3">
               <a
-                href="#projects"
+                href="https://github.com/vk0099/cloudprune"
+                target="_blank"
+                rel="noreferrer"
                 className="px-4 py-2 rounded-xl bg-dark-800 hover:bg-dark-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-2 transition-colors"
               >
                 <Github className="w-4 h-4" />
-                <span>Architecture Repo</span>
+                <span>Source Code</span>
+              </a>
+              <a
+                href={typeof window !== 'undefined' ? `${window.location.protocol}//${window.location.hostname}:3005` : 'http://vancek.duckdns.org:3005'}
+                target="_blank"
+                rel="noreferrer"
+                className="px-4 py-2 rounded-xl bg-accent-cyan hover:bg-accent-cyan/80 text-xs font-semibold text-dark-950 shadow-md shadow-accent-cyan/30 flex items-center gap-2 transition-colors"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span>Live Demo</span>
               </a>
             </div>
           </div>
