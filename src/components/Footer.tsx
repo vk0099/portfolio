@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             <Terminal className="w-4 h-4" />
           </div>
           <div>
-            <div className="text-sm font-bold text-white">Vamsi .dev</div>
+            <div className="text-sm font-bold text-white">Vance .dev</div>
             <div className="text-[10px] text-slate-500 font-mono">Full-Stack & Cloud Engineer</div>
           </div>
         </div>
@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
             <Linkedin className="w-4 h-4" />
           </a>
           <a
-            href="mailto:vamsikrishnagonuguntla77@gmail.com"
+            href="mailto:contact@vancek.dev"
             className="hover:text-white transition-colors"
             title="Email"
           >

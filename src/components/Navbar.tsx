@@ -19,7 +19,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
   }, []);
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('vamsikrishnagonuguntla77@gmail.com');
+    navigator.clipboard.writeText('contact@vancek.dev');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -35,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-base tracking-tight text-white group-hover:text-primary-400 transition-colors">
-              Vamsi <span className="text-primary-500">.dev</span>
+              Vance <span className="text-primary-500">.dev</span>
             </span>
             <span className="text-[10px] text-slate-400 uppercase tracking-widest font-mono">Full-Stack & Cloud</span>
           </div>

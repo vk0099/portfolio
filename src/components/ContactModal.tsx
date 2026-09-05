@@ -22,9 +22,10 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
   if (!isOpen) return null;
 
   const targetEmail = 'vamsikrishnagonuguntla77@gmail.com';
+  const displayEmail = 'contact@vancek.dev';
 
   const copyEmail = () => {
-    navigator.clipboard.writeText(targetEmail);
+    navigator.clipboard.writeText(displayEmail);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -115,10 +116,10 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                 <div>
                   <div className="text-[10px] text-slate-500 uppercase font-mono">Direct Email</div>
                   <a
-                    href={`mailto:${targetEmail}`}
+                    href={`mailto:${displayEmail}`}
                     className="text-xs font-semibold text-slate-200 hover:text-primary-400 transition-colors"
                   >
-                    {targetEmail}
+                    {displayEmail}
                   </a>
                 </div>
               </div>
@@ -138,7 +139,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                   <span>{errorMessage}</span>
                 </div>
                 <a
-                  href={`mailto:${targetEmail}?subject=${encodeURIComponent(`Project Inquiry: ${formData.name || 'Client'}`)}&body=${encodeURIComponent(
+                  href={`mailto:${displayEmail}?subject=${encodeURIComponent(`Project Inquiry: ${formData.name || 'Client'}`)}&body=${encodeURIComponent(
                     `Name: ${formData.name}\nEmail: ${formData.email}\nProject Type: ${formData.projectType}\nBudget: ${formData.budget}\n\nProject Scope:\n${formData.message}`
                   )}`}
                   className="px-2.5 py-1 rounded bg-rose-500/20 hover:bg-rose-500/30 text-white text-[11px] font-semibold whitespace-nowrap"

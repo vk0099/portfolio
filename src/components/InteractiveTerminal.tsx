@@ -11,7 +11,7 @@ export const InteractiveTerminal: React.FC<InteractiveTerminalProps> = ({ onOpen
       command: 'init --welcome',
       output: (
         <div className="space-y-1 text-slate-300">
-          <p className="text-primary-400 font-bold">⚡ Vamsi CLI v1.0.0 [Ready for Contracts]</p>
+          <p className="text-primary-400 font-bold">⚡ VanceK CLI v1.0.0 [Ready for Contracts]</p>
           <p className="text-slate-400">Type <span className="text-emerald-400 font-bold">help</span> to view available interactive commands, or <span className="text-accent-cyan font-bold">hire</span> to book a call.</p>
         </div>
       ),
@@ -120,7 +120,7 @@ export const InteractiveTerminal: React.FC<InteractiveTerminalProps> = ({ onOpen
               <span className="w-3 h-3 rounded-full bg-emerald-500/80 inline-block" />
               <span className="ml-3 text-xs text-slate-400 flex items-center gap-1.5">
                 <TerminalIcon className="w-3.5 h-3.5 text-primary-400" />
-                vamsi@pulseops-cloud: ~
+                vance@pulseops-cloud: ~
               </span>
             </div>
             <div className="flex items-center gap-1 text-[11px] text-slate-400">
