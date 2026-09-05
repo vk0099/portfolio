@@ -53,7 +53,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
 
             <div className="flex items-center gap-2 pl-2">
               <a
-                href="https://github.com/vamsi"
+                href="https://github.com/vk0099"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-xl bg-dark-800 hover:bg-dark-700 border border-slate-700 text-slate-400 hover:text-white transition-colors"

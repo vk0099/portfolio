@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
         {/* Social Icons */}
         <div className="flex items-center gap-4 text-slate-400">
           <a
-            href="https://github.com/vamsi"
+            href="https://github.com/vk0099"
             target="_blank"
             rel="noreferrer"
             className="hover:text-white transition-colors"

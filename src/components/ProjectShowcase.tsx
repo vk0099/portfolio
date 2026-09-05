@@ -47,7 +47,7 @@ export const ProjectShowcase: React.FC = () => {
 
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com/vamsi/pulseops"
+                href="https://github.com/vk0099/pulseops"
                 target="_blank"
                 rel="noreferrer"
                 className="px-4 py-2 rounded-xl bg-dark-800 hover:bg-dark-700 border border-slate-700 text-xs font-semibold text-slate-200 flex items-center gap-2 transition-colors"
