@@ -18,20 +18,20 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
           {/* Specialization Pill */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-dark-800/80 border border-slate-700/80 text-slate-300 text-xs font-mono mb-8 backdrop-blur shadow-inner">
             <span className="w-2 h-2 rounded-full bg-primary-500 animate-pulse" />
-            <span>Full-Stack Engineer & Cloud Solutions Architect</span>
+            <span>Full-Stack Engineer & Multi-Cloud Solutions Architect</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15]">
             Engineering High-Throughput <br className="hidden sm:inline" />
             <span className="bg-gradient-to-r from-primary-400 via-indigo-300 to-accent-cyan bg-clip-text text-transparent">
-              Web Apps & Resilient AWS Cloud
+              Web Apps & Multi-Cloud FinOps
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="mt-6 text-base sm:text-lg text-slate-400 leading-relaxed max-w-2xl mx-auto">
-            I help startups and engineering teams build real-time systems, optimize database performance, and deploy auto-scaling cloud architectures with <span className="text-slate-200 font-semibold">Node.js, React 18, PostgreSQL, Docker, and Terraform</span>.
+            I help startups and engineering teams build real-time distributed systems, optimize multi-cloud infrastructure (OCI, AWS, GCP, Azure), and deploy zero-downtime platforms with <span className="text-slate-200 font-semibold">Node.js 20, React 18, PostgreSQL, Docker, and Terraform</span>.
           </p>
 
           {/* Primary CTA Group */}

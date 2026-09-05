@@ -23,16 +23,16 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenContact 
     },
     {
       icon: <Cloud className="w-6 h-6 text-accent-cyan" />,
-      title: "AWS Cloud & DevOps Automation",
+      title: "Multi-Cloud & FinOps Optimization",
       badge: "High ROI",
       price: "$2,500 – $6,000",
-      description: "Eliminate manual deploys and single points of failure. Modernize your infrastructure with Docker and Terraform Infrastructure as Code.",
+      description: "Eliminate cloud waste and manual deploys. Modernize infrastructure across OCI, AWS, GCP, and Azure with Docker, Terraform, and automated FinOps.",
       deliverables: [
-        "AWS Multi-AZ VPC, ALB & ECS Fargate",
-        "Terraform Infrastructure as Code (IaC)",
-        "GitHub Actions CI/CD automated test & deploy",
-        "Docker multi-stage container optimization",
-        "RDS automated backup & recovery policies"
+        "OCI Flex shape rightsizing & VPU performance tuning",
+        "AWS Multi-AZ VPC, ALB & ECS Fargate architectures",
+        "Terraform Infrastructure as Code (IaC) across clouds",
+        "GitHub Actions CI/CD automated test & deploy pipelines",
+        "Cost anomaly alarms & automated waste pruning policies"
       ]
     },
     {

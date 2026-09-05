@@ -52,8 +52,8 @@ export const InteractiveTerminal: React.FC<InteractiveTerminalProps> = ({ onOpen
             <p><span className="text-primary-400 font-bold">Frontend:</span> React 18, Vite, TypeScript, Tailwind CSS, Recharts</p>
             <p><span className="text-accent-cyan font-bold">Backend:</span> Node.js 20, TypeScript, Express, WebSockets (ws), REST APIs</p>
             <p><span className="text-accent-emerald font-bold">Databases:</span> PostgreSQL 16, Redis 7 (In-Memory Cache & Queues)</p>
-            <p><span className="text-accent-amber font-bold">DevOps:</span> Docker, AWS (ECS Fargate, ALB, RDS, VPC), Terraform IaC, GitHub Actions</p>
-            <p><span className="text-rose-400 font-bold">Observability:</span> Prometheus (OpenMetrics), Grafana, Alertmanager</p>
+            <p><span className="text-accent-amber font-bold">Multi-Cloud:</span> OCI (Flex & VPU), AWS (ECS/ALB/RDS), GCP & Azure, Terraform IaC</p>
+            <p><span className="text-rose-400 font-bold">Observability:</span> Prometheus TSDB, Grafana, Node Exporter, OpenMetrics</p>
           </div>
         );
         break;
@@ -62,9 +62,9 @@ export const InteractiveTerminal: React.FC<InteractiveTerminalProps> = ({ onOpen
         output = (
           <div className="space-y-2 text-xs">
             <p className="text-white font-bold">1. PulseOps Engine (Real-Time Synthetic Health & Observability)</p>
-            <p className="text-slate-400 pl-4">Node.js, React 18, WebSockets, Prometheus, Grafana, AWS ECS Fargate, Terraform</p>
-            <p className="text-white font-bold">2. CloudPrune FinOps (AWS Cost Optimization & Anomaly Engine)</p>
-            <p className="text-slate-400 pl-4">CloudWatch telemetry, unattached resource pruner, z-score cost spikes</p>
+            <p className="text-slate-400 pl-4">Node.js, React 18, WebSockets, Prometheus, Grafana, Docker Compose, Terraform</p>
+            <p className="text-white font-bold">2. CloudPrune Multi-Cloud FinOps (OCI, AWS, GCP, Azure)</p>
+            <p className="text-slate-400 pl-4">OCI Flex rightsizing, Block Volume VPU tuning, CloudWatch/GCP telemetry, CLI recipes</p>
           </div>
         );
         break;

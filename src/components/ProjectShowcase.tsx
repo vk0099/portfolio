@@ -242,7 +242,7 @@ export const ProjectShowcase: React.FC = () => {
         </div>
 
         {/* ========================================================================= */}
-        {/* Project 2: CloudCost FinOps Engine */}
+        {/* Project 2: CloudPrune Multi-Cloud FinOps Engine */}
         {/* ========================================================================= */}
         <div className="glass-panel rounded-3xl p-6 sm:p-8 lg:p-10 border border-slate-800 relative overflow-hidden glow-hover">
           <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-800/80">
@@ -252,12 +252,12 @@ export const ProjectShowcase: React.FC = () => {
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <h3 className="text-xl sm:text-2xl font-bold text-white">CloudPrune FinOps</h3>
-                  <span className="px-2.5 py-0.5 rounded-full bg-primary-500/10 border border-primary-500/30 text-primary-400 text-[11px] font-mono">
-                    Cloud Cost Optimization
+                  <h3 className="text-xl sm:text-2xl font-bold text-white">CloudPrune Multi-Cloud FinOps</h3>
+                  <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-[11px] font-mono">
+                    OCI · AWS · GCP · Azure
                   </span>
                 </div>
-                <p className="text-xs text-slate-400 font-mono">AWS Anomaly Detection, Unattached Resource Pruner & Waste Engine</p>
+                <p className="text-xs text-slate-400 font-mono">Autonomous Waste Pruning, OCI Flex Sizing, Storage VPU & Anomaly Engine</p>
               </div>
             </div>
 
@@ -283,34 +283,44 @@ export const ProjectShowcase: React.FC = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
-            <div className="space-y-3">
-              <div className="flex items-center gap-2 text-accent-cyan text-xs font-mono font-bold">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6">
+            <div className="space-y-2 bg-dark-900/60 p-4 rounded-2xl border border-slate-800/80">
+              <div className="flex items-center gap-2 text-rose-400 text-xs font-mono font-bold">
                 <Cpu className="w-4 h-4" />
-                <span>IDLE RESOURCE AUDITING</span>
+                <span>ORACLE CLOUD (OCI)</span>
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Scans AWS accounts for unattached EBS volumes, idle RDS instances, stale Elastic IPs, and orphaned NAT Gateways to instantly claw back 25–40% of cloud spend.
+                Fine-tunes OCPU/RAM on A1/E4 Flex shapes, reduces Block Volume VPUs (120 to 10), auto-stops idle ATP/ADW instances, and enforces Always Free quotas.
               </p>
             </div>
 
-            <div className="space-y-3">
-              <div className="flex items-center gap-2 text-accent-emerald text-xs font-mono font-bold">
+            <div className="space-y-2 bg-dark-900/60 p-4 rounded-2xl border border-slate-800/80">
+              <div className="flex items-center gap-2 text-amber-400 text-xs font-mono font-bold">
                 <BarChart2 className="w-4 h-4" />
-                <span>ANOMALY DETECTION</span>
+                <span>AMAZON AWS</span>
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Calculates rolling 7-day cost baselines using linear regression and z-score thresholds to catch runaway Lambda loops and unthrottled S3 transfers before billing surprises.
+                Prunes idle staging RDS instances, downsizes oversized EC2 compute, migrates GP2 to GP3 EBS volumes, and transitions S3 to Glacier Instant Retrieval.
               </p>
             </div>
 
-            <div className="space-y-3">
-              <div className="flex items-center gap-2 text-primary-400 text-xs font-mono font-bold">
+            <div className="space-y-2 bg-dark-900/60 p-4 rounded-2xl border border-slate-800/80">
+              <div className="flex items-center gap-2 text-sky-400 text-xs font-mono font-bold">
                 <Database className="w-4 h-4" />
-                <span>AUTOMATED POLICY PRUNING</span>
+                <span>GOOGLE CLOUD (GCP)</span>
               </div>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Provides one-click automated Slack/Discord notification hooks and dry-run cleanup scripts generated via Terraform state reconciliation.
+                Rightsizes Custom N2 machines to E2 shapes, schedules Cloud SQL off-peak sleep, and purges orphaned Persistent SSD disks (pd-ssd).
+              </p>
+            </div>
+
+            <div className="space-y-2 bg-dark-900/60 p-4 rounded-2xl border border-slate-800/80">
+              <div className="flex items-center gap-2 text-blue-400 text-xs font-mono font-bold">
+                <Cloud className="w-4 h-4" />
+                <span>MICROSOFT AZURE</span>
+              </div>
+              <p className="text-xs text-slate-300 leading-relaxed">
+                Downsizes oversized Standard D-series VMs, activates Azure SQL Serverless Auto-Pause, and eliminates unattached P30 Premium SSD disks.
               </p>
             </div>
           </div>

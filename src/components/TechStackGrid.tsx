@@ -19,9 +19,9 @@ export const TechStackGrid: React.FC = () => {
       skills: ["PostgreSQL 16", "Redis 7", "Prisma ORM", "Connection Pooling", "Query Indexing"]
     },
     {
-      title: "AWS Cloud & DevOps",
+      title: "Multi-Cloud & FinOps",
       icon: <Cloud className="w-5 h-5 text-accent-amber" />,
-      skills: ["AWS ECS Fargate", "Application Load Balancer", "RDS Aurora", "VPC & NAT", "Terraform IaC"]
+      skills: ["Oracle Cloud (OCI)", "AWS (ECS/ALB/RDS)", "GCP & Azure", "Terraform IaC", "FinOps Rightsizing"]
     },
     {
       title: "Containerization & CI/CD",
